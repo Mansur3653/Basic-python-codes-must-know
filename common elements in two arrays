@@ -1,0 +1,10 @@
+n1 = []
+for i in range(5):
+    n1.append(int(input()))
+n2 = []
+for i in range(5):
+    n2.append(int(input()))
+print("Output: ")
+for i in range(5):
+    if n1[i] in n2:
+        print(n1[i])

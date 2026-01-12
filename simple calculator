@@ -1,0 +1,20 @@
+print("Do you want to use Calculator (Y/N)?")
+while input("Give Y or N to continue: ").upper() == 'Y':
+    a = int(input("First num: "))
+    b = int(input("Second num: "))
+    op = input("Operator: ")
+    match op:
+        case '+':
+            print("Addition Result: ",a+b)
+        case '-':
+            print("Subtraction Result: ",a-b)
+        case '*':
+            print("Multiplication Result: ",a*b)
+        case '%':
+            print("Division gives remainder Result: ",a%b)
+        case '/':
+            print("Division gives quotient Result: ",a/b)
+        case '//':
+            print("Division gives quotient nearest number Result: ",a//b)
+        case _:
+            print("Unknown Operator")

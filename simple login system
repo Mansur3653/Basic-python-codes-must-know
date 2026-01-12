@@ -1,0 +1,13 @@
+user = "mansur"
+pswd = 1234
+print("Enter credentials to Login")
+a = input("user: ")
+b = int(input("password: "))
+if a==user and b==pswd:
+    print("Login Successful")
+elif a!=user and b==pswd:
+    print("user is incorrect")
+elif a==user and b!=pswd:
+    print("password is incorrect")
+else:
+    print("Both user and password are incorrect")

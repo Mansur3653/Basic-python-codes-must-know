@@ -1,0 +1,7 @@
+# if input is taken as string
+num = input()
+print("".join(reversed(num)))
+
+# if input is taken as integer
+num = int(input())
+print("".join(reversed(str(num))))

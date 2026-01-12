@@ -1,0 +1,12 @@
+s = input("String: ")
+m = 0
+c = ''
+for i in range(len(s)):
+    a = 0
+    for j in range(i,len(s)):
+        if s[i]==s[j]:
+            a += 1
+    if a>m:
+        m=a
+        c=s[i]
+print(c,"-->",m)

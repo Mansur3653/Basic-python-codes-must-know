@@ -1,0 +1,7 @@
+n = input("Value: ")
+print(n==("".join(reversed(n))))
+
+#OR
+
+n = int(input("Value: "))
+print(str(n)==("".join(reversed(str(n)))))

@@ -1,0 +1,3 @@
+s = input("String: ")
+r = s.replace(" ","")
+print(r)

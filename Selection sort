@@ -1,0 +1,11 @@
+n1 = []
+for i in range(5):
+    n1.append(int(input()))
+n = len(n1)
+for i in range(n):
+    min = i
+    for j in range(i+1,n):
+        if n1[j]<n1[min]:
+            min = j
+    n1[i], n1[min] = n1[min], n1[i]
+print("Selection sort: ",n1)

@@ -1,0 +1,6 @@
+n = [1,2,4,5,6]
+a = len(n)+1
+b = a*(a+1)/2
+for i in range(a-1):
+    b -= n[i]
+print("Missing Number: ",int(b))

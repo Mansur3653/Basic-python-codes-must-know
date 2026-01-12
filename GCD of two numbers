@@ -1,0 +1,12 @@
+import math
+a = int(input("Value: "))
+b = int(input("Value: "))
+print(math.gcd(a,b))
+
+#OR
+
+a = int(input("Value: "))
+b = int(input("Value: "))
+while b != 0:
+    a, b = b, a%b
+print(a)

@@ -1,0 +1,17 @@
+w1 = input("word: ").lower()
+w2 = input("word: ").lower()
+c = 0
+if len(w1) == len(w2):
+    for i in range(len(w1)):
+        if w1[i] in w2:
+            c += 1
+print(c == len(w1))
+
+#OR
+
+w1 = input("word: ").lower()
+w2 = input("word: ").lower()
+if len(w1) == len(w2):
+    print(sorted(w1)==sorted(w2))
+else:
+    print("False")

@@ -1,0 +1,7 @@
+n1 = []
+for i in range(5):
+    n1.append(int(input()))
+n2 = []
+for i in range(5):
+    n2.append(int(input()))
+print(n1+n2)

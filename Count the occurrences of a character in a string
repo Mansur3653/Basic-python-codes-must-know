@@ -1,0 +1,7 @@
+s = input("String: ")
+c = 'a'
+a = 0
+for i in range(len(s)):
+    if c==s[i]:
+        a += 1
+print(c,"-->",a)

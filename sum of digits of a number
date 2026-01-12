@@ -1,0 +1,5 @@
+n = input("Value: ")
+s = 0;
+for i in range(len(n)):
+    s += int(n[i])
+print("Sum: ",s)

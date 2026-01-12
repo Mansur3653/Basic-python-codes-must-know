@@ -1,0 +1,3 @@
+a, b = int(input("Value: ")), int(input("Value: "))
+a, b = b, a
+print(a,b,sep="<->")

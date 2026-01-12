@@ -1,0 +1,9 @@
+n1 = []
+for i in range(5):
+    n1.append(int(input()))
+n = len(n1)
+for i in range(0,n-1):
+    for j in range(0,n-i-1):
+        if n1[j]>n1[j+1]:
+            n1[j], n1[j+1] = n1[j+1], n1[j]
+print("Bubble sorted: ",n1)

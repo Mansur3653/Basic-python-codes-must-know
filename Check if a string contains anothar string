@@ -1,0 +1,4 @@
+s1 = input("String: ")
+s2 = input("String: ")
+print("s1 contains s2: ",s2 in s1)
+print("s2 contains s1: ",s1 in s2)
